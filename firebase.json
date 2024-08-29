@@ -1,0 +1,35 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "geoblast-notifications",
+          "appId": "1:162100596406:android:2de564b6f8ab0622ffe017",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "geoblast-notifications",
+          "configurations": {
+            "android": "1:162100596406:android:2de564b6f8ab0622ffe017",
+            "ios": "1:162100596406:ios:380ff37cd7ab2b4fffe017"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
